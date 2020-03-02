@@ -1,0 +1,17 @@
+:host {
+  display: block;
+}
+
+.and-button {
+  color: $white-text;
+  background-color: $orange-primary;
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 1rem;
+
+  &--alter {
+    color: $orange-primary;
+    background-color: $white-text;
+  }
+}
+

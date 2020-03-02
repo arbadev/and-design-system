@@ -1,0 +1,13 @@
+// global reset
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+} // global reset in order to easily use REM units ( 1 rem will be equal 10px )
